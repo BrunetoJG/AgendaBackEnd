@@ -12,7 +12,7 @@ public class Agenda implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String description;
     private String duration;
     private String local;
